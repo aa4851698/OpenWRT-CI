@@ -54,7 +54,7 @@ UPDATE_PACKAGE "openclash" "vernesong/OpenClash" "dev" "pkg"
 UPDATE_PACKAGE "passwall" "xiaorouji/openwrt-passwall" "main" "pkg"
 UPDATE_PACKAGE "passwall2" "xiaorouji/openwrt-passwall2" "main" "pkg"
 
-UPDATE_PACKAGE "luci-app-tailscale" "asvow/luci-app-tailscale" "main"
+UPDATE_PACKAGE "luci-app-adguardhome" "sirpdboy/luci-app-adguardhome" "main"
 
 UPDATE_PACKAGE "store" "linkease/istore " "main" luci-app-store luci-lib-taskd luci-lib-xterm taskd 
 UPDATE_PACKAGE "easytier" "EasyTier/luci-app-easytier" "main"
