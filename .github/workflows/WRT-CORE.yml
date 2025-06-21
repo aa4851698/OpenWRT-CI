@@ -63,7 +63,12 @@ jobs:
     steps:
       - name: Checkout Projects
         uses: actions/checkout@main
-
+        
+    - name: cache
+        uses: klever1988/cachewrtbuild@main
+        with:
+        ccache: 'true'
+          
       - name: Initialization Environment
         env:
           DEBIAN_FRONTEND: noninteractive
