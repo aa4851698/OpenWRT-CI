@@ -56,7 +56,7 @@ UPDATE_PACKAGE "passwall2" "xiaorouji/openwrt-passwall2" "main" "pkg"
 
 UPDATE_PACKAGE "luci-app-adguardhome" "sirpdboy/luci-app-adguardhome" "js"
 
-UPDATE_PACKAGE "store" "linkease/istore " "main" luci-app-store luci-lib-taskd luci-lib-xterm taskd 
+UPDATE_PACKAGE "store" "linkease/istore" "main" luci-app-store luci-lib-taskd luci-lib-xterm taskd 
 UPDATE_PACKAGE "easytier" "EasyTier/luci-app-easytier" "main"
 UPDATE_PACKAGE "fancontrol" "rockjake/luci-app-fancontrol" "main"
 UPDATE_PACKAGE "gecoosac" "lwb1978/openwrt-gecoosac" "main"
