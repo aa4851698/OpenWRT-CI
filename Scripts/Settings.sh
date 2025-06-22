@@ -4,6 +4,7 @@
 sed -i "s/luci-theme-bootstrap/luci-theme-$WRT_THEME/g" $(find ./feeds/luci/collections/ -type f -name "Makefile")
 #修改immortalwrt.lan关联IP
 sed -i 's/192.168.31.1/192.168.1.1/g' $GITHUB_WORKSPACE/wrt/package/base-files/files/bin/config_generate
+sed -i 's|/bin/login|/bin/login -f root|g' $GITHUB_WORKSPACE/wrt/feeds/packages/utils/ttyd/files/ttyd.config
 #添加编译日期标识
 sed -i "s/(\(luciversion || ''\))/(\1) + (' \/ $WRT_MARK-$WRT_DATE')/g" $(find ./feeds/luci/modules/luci-mod-status/ -type f -name "10_system.js")
 
